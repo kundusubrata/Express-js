@@ -53,7 +53,7 @@
 
 
 
-//----------------this part will show data on postman or thunder client you cant get every time form so you have to see the data postman get/post/ delete / -------------------------
+//----------------this part will show data on postman or thunder client you cant get every time form, so you have to see the data in postman get/post/ delete / -------------------------
 
 // const express = require("express");
 // const path = require("path");
@@ -132,7 +132,6 @@
 const express = require("express");
 const path = require("path");
 const bodyParser = require("body-parser");
-
 const router = require("./userRoutes"); 
 const port = 4000;
 const app = express();
